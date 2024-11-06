@@ -1,0 +1,173 @@
+body {
+    background-color: black;
+}
+
+.cabeçalho {
+    color: black;
+    background-image: linear-gradient( white, black);
+    padding: 10px;
+}
+.perfil {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem_hugo {
+   position: relative;
+   width: 400px;
+   height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.descricao {
+    color: aliceblue;
+    font-size: 48px;
+}
+
+.videos {
+    background: linear-gradient(black, white, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.videos iframe {
+    padding: 20px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    height: 500px;
+    margin: 0 10px;
+    box-shadow: 0 1px 10px black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.logo {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.logo i {
+    font-size: 200%;
+}
+
+#musicName {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 30px;
+}
+
+.controls button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.controls i {
+    font-size: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    transition: all .2s;
+}
+
+.controls i:hover {
+    background-color: lightgray;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time span {
+    font-size: 22px;
+    color: #333;
+}
+
+.footer {
+    width: 100%;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-bottom: 5px ;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 8px;
+    background-color: #333;
+    border: 5px;
+}
+
+.musicas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background:linear-gradient(black, white, black);   
+}
+
+.musica_nome {
+    box-shadow: 0 1px 10px black;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.musica_nome a  {
+    text-decoration: none;
+    color: black;
+}
+
+.musica_nome a img {
+    display: none;
+}
+
+.musica_nome a:hover img {
+    display: inline;
+    width: 150px;
+}
+
+.rodape {
+    color:white ;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+h3,h4 {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+}

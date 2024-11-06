@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <h1>Hugo Duro do Amaral</h1>
+    </header>
+
+
+    <main class="principal">
+        <section class="perfil">
+            <div class="imagem_hugo">
+                <img src="hugo.png" alt="Imagem do Hugo">
+            </div>
+
+            <div class="descricao">
+                <h1>Hugo Duro do Amaral</h1>
+                <p>Licenciado em Química</p>
+                <p>Professor da Rede Estadual Básica II</p>
+                <p>Hobby: Músico, Gamer e Programador</p>
+            </div>
+        </section>
+
+        <h3>Vídeos que eu recomendo :</h3>
+
+        <section class="videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/I4GXUrYtEzY?si=G7UoRRN9KhJInrFc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nQO0uHe-N4A?si=Sod1Leup54twLgws"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3gqrL2FXvAg?si=2o2L2CZimxi6ZfyL"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zgl2V6moSYg?si=7lpvw51ESVnztG54"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+
+        <h4>Músicas que eu recomendo :</h4>
+
+        <section class="musicas">
+            
+            <div class="musica_link">
+                <div class="musica_nome">
+                   <a href="https://www.youtube.com/watch?v=J1rAZ6tOH3Q">
+                        <h1>Apaguei pra todos</h1>
+                        <p>Ferrugem</p>
+                        <img src="https://img.youtube.com/vi/J1rAZ6tOH3Q/maxresdefault.jpg" alt="Tumbnail da musical Apaguei pra todos">
+                   </a> 
+                </div>
+
+                <div class="musica_nome">
+                    <a href="https://www.youtube.com/watch?v=wo4pWZApd2Y">
+                        <h1>Deixa Acontecer</h1>
+                        <p>Grupo Revelação</p>
+                        <img src="https://img.youtube.com/vi/wo4pWZApd2Y/maxresdefault.jpg" alt="Tumbnail da musical Deixa Acontecer">
+                    </a>
+                    
+                </div>
+
+                <div class="musica_nome">
+                    <a href="https://www.youtube.com/watch?v=ebGXBgmVcNw">
+                        <h1>Deixa Alagar</h1>
+                        <p>Grupo Revelação</p>
+                        <img src="https://img.youtube.com/vi/ebGXBgmVcNw/maxresdefault.jpg" alt="Tumbnail da musical Deixa Alagar">
+                    </a>
+                    
+                </div>
+
+                <div class="musica_nome">
+                    <a href="https://www.youtube.com/watch?v=CgkLC1mcCE0">
+                        <h1>Ela</h1>
+                        <p>Ferrugem</p>
+                        <img src="https://img.youtube.com/vi/CgkLC1mcCE0/maxresdefault.jpg" alt="Tumbnail da musical Ela">
+                    </a>
+                    
+                </div >
+
+                <div class="musica_nome musica1">
+                    <a href="https://www.youtube.com/watch?v=ppzYysbdKyU">
+                        <h1>Temporal/ Velocidade da Luz</h1>
+                        <p>Thiaguinho</p>
+                        <img src="https://img.youtube.com/vi/ppzYysbdKyU/maxresdefault.jpg" alt="Tumbnail da musical Temporal e Velocidade da Luz">
+                    </a>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="player">
+
+                <div class="logo">
+                    <i class='bx bx-music'></i>
+                </div>
+
+                <span id="musicName"></span>
+
+                <audio id="player" src=""></audio>
+                <div class="controls">
+                    <button id="prevButton"><i class='bx bx-skip-previous'></i></button>
+                    <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
+                    <button id="nextButton"><i class='bx bx-skip-next'></i></button>
+                </div>
+                <div class="footer">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="time">
+                        <span id="currentTime">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+            </div>
+            <script type="module" src="script.js"></script>
+    </main>
+
+    </section>
+
+
+    <footer class="rodape">
+        <p>Agradecimento a plataforma Alura,</p>
+        <p>Muito Obrigado !!!</p>
+    </footer>
+</body>
+
+</html>
